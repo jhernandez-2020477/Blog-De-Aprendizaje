@@ -7,6 +7,7 @@ import express from "express" //Servidor HTTP
 import morgan from "morgan" //Logs
 import helmet from "helmet" //Seguridad para HTTP
 import cors from 'cors' //Acceso al API
+import publicationRoutes from '../src/publication/publication.routes.js'
 
 
 const configs = (app )=>{
@@ -18,7 +19,7 @@ const configs = (app )=>{
 }
 
 const routes = (app)=>{
-    app.use()
+    app.use(publicationRoutes)
 }
 
 export const initServer = async()=>{
