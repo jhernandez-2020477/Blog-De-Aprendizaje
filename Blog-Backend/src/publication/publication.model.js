@@ -1,4 +1,7 @@
 //Modelo de Publicación
+import mongoose, { Schema, model } from "mongoose";
+
+
 const publicationSchema = Schema(
     {
         title: {
