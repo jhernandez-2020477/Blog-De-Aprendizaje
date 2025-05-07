@@ -8,6 +8,7 @@ import morgan from "morgan" //Logs
 import helmet from "helmet" //Seguridad para HTTP
 import cors from 'cors' //Acceso al API
 import publicationRoutes from '../src/publication/publication.routes.js'
+import commentRoutes from '../src/comment/comment.routes.js'
 
 
 const configs = (app )=>{
@@ -20,6 +21,7 @@ const configs = (app )=>{
 
 const routes = (app)=>{
     app.use(publicationRoutes)
+    app.use(commentRoutes)
 }
 
 export const initServer = async()=>{
