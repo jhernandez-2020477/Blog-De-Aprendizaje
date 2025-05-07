@@ -33,3 +33,28 @@ export const validUpdatePost = [
         .withMessage('Can´t be overcome 15 characters'),       
         validateErrorWithoutImg
 ]
+
+/*----------------------------- COMMENT --------------------------------- */
+export const validSaveComment = [
+    body('name', 'Name cannot be empty')
+        .notEmpty()
+        .isLength({ max: 50 })
+        .withMessage('Can´t be overcome 50 characters'),
+    body('content', 'Content cannot be empty')
+        .notEmpty() 
+        .isLength({ max: 200 })
+        .withMessage('Can´t be overcome 200 characters'),
+    body('publication', 'Publication cannot be empty')
+        .notEmpty(),      
+        validateErrorWithoutImg
+]
+
+export const validUpdateComment = [
+    body('content', 'Content cannot be empty')
+        .optional() 
+        .isLength({ max: 200 })
+        .withMessage('Can´t be overcome 200 characters'),
+    body('publication', 'Publication cannot be empty')
+        .optional(),      
+        validateErrorWithoutImg
+]
