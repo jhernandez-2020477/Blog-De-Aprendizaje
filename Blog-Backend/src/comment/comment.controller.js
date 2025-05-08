@@ -130,12 +130,13 @@ export const getAllComments = async(req, res) => {
     const { limit, skip } = req.query
     try {
         const comments = await Comment.find()
+            .sort({ createdAt: -1 })
             .skip(skip)
             .limit(limit)
             .populate(
                 {
                     path: 'publication',
-                    select: 'title content -_id'
+                    select: 'title description -_id'
                 }
             )
             /*
