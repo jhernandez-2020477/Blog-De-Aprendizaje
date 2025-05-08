@@ -5,7 +5,7 @@ import { validSaveComment, validUpdateComment } from "../../helpers/validators.j
 const api = Router()
 
 //Rutas públicas
-api.post('/save', [validSaveComment], saveComment)
+api.post('/', [validSaveComment], saveComment)
 api.put('/:id', [validUpdateComment], updateComment)
 api.delete('/:id', deleteComment)
 api.get('/getAll', getAllComments)
