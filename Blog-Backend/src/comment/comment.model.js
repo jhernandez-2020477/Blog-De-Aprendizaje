@@ -18,18 +18,11 @@ const commentSchema = Schema(
             ref: 'Publication',
             required: [true, 'Publication is required']
         },
-        /*
-        author: {
-            type: Schema.Types.ObjectId,
-            ref: 'User',
-            required: [true, 'User is required']
-        },
-        */
         date: { 
             type: Date, 
-            default: Date.now 
-        }
-    }
+            default: Date.now,  
+        },
+    },
 )
 
 //Crear y exportar el modelo
