@@ -20,8 +20,8 @@ const configs = (app )=>{
 }
 
 const routes = (app)=>{
-    app.use(publicationRoutes)
-    app.use(commentRoutes)
+    app.use('/post', publicationRoutes)
+    app.use('/comment', commentRoutes)
 }
 
 export const initServer = async()=>{
