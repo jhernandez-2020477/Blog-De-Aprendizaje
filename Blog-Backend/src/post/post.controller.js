@@ -1,4 +1,4 @@
-import Publication from '../publication/publication.model.js'
+import Post from '../post/post.model.js'
 
 //Agregar publicación
 export const savePost = async(req, res)=>{
@@ -8,12 +8,12 @@ export const savePost = async(req, res)=>{
         let data = req.body
 
          // Verificar si ya existe una publicación con el mismo título
-         const existingPublication = await Publication.findOne(
+         const existingPost = await Post.findOne(
             { 
                 title: title 
             }
         )
-        if(existingPublication) {
+        if(existingPost) {
              return res.status(400).send(
                 {
                     success: false,
@@ -22,11 +22,11 @@ export const savePost = async(req, res)=>{
             )
         }
 
-        let publication = new Publication(data)
-        await publication.save()
+        let post = new Post(data)
+        await post.save()
         return res.send(
             {
-                message: `Save Post successfully, the title is: ${publication.title}`
+                message: `Save Post successfully, the title is: ${post.title}`
             }
         )
     } catch (err) {
@@ -47,9 +47,9 @@ export const updatePost = async(req, res)=>{
     const { ...data } = req.body
     try {
 
-        const publication = await Publication.findById(id)
+        const post = await Post.findById(id)
 
-        if (!publication) {
+        if (!post) {
             return res.status(404).send(
                 {
                     success: false,
@@ -58,7 +58,7 @@ export const updatePost = async(req, res)=>{
             )
         }
 
-        const updatePubli = await Publication.findByIdAndUpdate(
+        const updatePost = await Post.findByIdAndUpdate(
             id,
             data,
             { new: true }
@@ -67,7 +67,7 @@ export const updatePost = async(req, res)=>{
             {
                 success: true,
                 message: 'Publication updated successfully :)',
-                updatePubli                
+                updatePost                
             }
         )
         
@@ -87,8 +87,8 @@ export const updatePost = async(req, res)=>{
 export const deletePost = async(req, res)=>{
     const { id } = req.params
     try {
-        const publication = await Publication.findById(id)
-        if(!publication){
+        const post = await Post.findById(id)
+        if(!post){
             return res.status(404).send(
                 {
                     success: false,
@@ -98,7 +98,7 @@ export const deletePost = async(req, res)=>{
         }
 
         //Eliminar la Publicación
-        await Publication.findByIdAndDelete(id)
+        await Post.findByIdAndDelete(id)
         return res.send(
             {
                 success: true,
@@ -111,6 +111,38 @@ export const deletePost = async(req, res)=>{
             {
                 success: false,
                 message: 'General Error when deleting this Publication',
+                err
+            }
+        )
+    }
+}
+
+//Obtener todos
+export const getAllPost = async(req, res)=>{
+    try{
+        const posts = await Post.find()
+            .populate('author category', 'username name')
+        if(posts.length == 0){
+            return res.status(404).send(
+                { 
+                    success: false, 
+                    message: 'Not Found posts' 
+                }
+            )
+        }
+        return res.send(
+            {
+                success: true, 
+                message: 'Posts found', 
+                posts
+            }
+        )
+    }catch(error){
+        console.error(error)
+        return res.status(500).send(
+            {
+                success: false, 
+                message: 'General error getting posts', 
                 err
             }
         )

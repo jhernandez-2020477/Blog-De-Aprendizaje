@@ -7,7 +7,7 @@ import express from "express" //Servidor HTTP
 import morgan from "morgan" //Logs
 import helmet from "helmet" //Seguridad para HTTP
 import cors from 'cors' //Acceso al API
-import publicationRoutes from '../src/publication/publication.routes.js'
+import postRoutes from '../src/post/post.routes.js'
 import commentRoutes from '../src/comment/comment.routes.js'
 
 
@@ -20,7 +20,7 @@ const configs = (app )=>{
 }
 
 const routes = (app)=>{
-    app.use('/post', publicationRoutes)
+    app.use('/post', postRoutes)
     app.use('/comment', commentRoutes)
 }
 

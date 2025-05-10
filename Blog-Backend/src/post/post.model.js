@@ -2,7 +2,7 @@
 import mongoose, { Schema, model } from "mongoose";
 
 
-const publicationSchema = Schema(
+const postSchema = Schema(
     {
         title: {
             type: String,
@@ -27,4 +27,4 @@ const publicationSchema = Schema(
 )
 
 //Crear y exportar el modelo
-export default model('Publication', publicationSchema)
+export default model('Post', postSchema)
