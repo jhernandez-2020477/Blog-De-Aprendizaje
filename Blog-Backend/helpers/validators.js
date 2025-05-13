@@ -44,7 +44,7 @@ export const validSaveComment = [
         .notEmpty() 
         .isLength({ max: 200 })
         .withMessage('Can´t be overcome 200 characters'),
-    body('publication', 'Publication cannot be empty')
+    body('post', 'Post cannot be empty')
         .notEmpty(),      
         validateErrorWithoutImg
 ]
@@ -54,7 +54,7 @@ export const validUpdateComment = [
         .optional() 
         .isLength({ max: 200 })
         .withMessage('Can´t be overcome 200 characters'),
-    body('publication', 'Publication cannot be empty')
+    body('post', 'Post cannot be empty')
         .optional(),      
         validateErrorWithoutImg
 ]
