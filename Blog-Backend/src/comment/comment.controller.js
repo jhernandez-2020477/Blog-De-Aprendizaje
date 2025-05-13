@@ -1,17 +1,17 @@
 import Comment from '../comment/comment.model.js'
-import Publication from '../publication/publication.model.js'
+import Post from '../post/post.model.js'
 
 //Agregar Comentario
 export const saveComment = async(req, res)=>{
     try {
 
-        const { publication } = req.body
+        const { post } = req.body
         let data = req.body
         let comment = new Comment(data)
 
         //Verificar si la publicación existe
-        const publicationId = await Publication.findById(publication)
-        if(!publicationId){
+        const postId = await Post.findById(post)
+        if(!postId){
             return res.status(400).send(
                 {
                     success: false,
@@ -46,11 +46,11 @@ export const saveComment = async(req, res)=>{
 //Editar Comentario
 export const updateComment = async(req, res)=>{
     const { id } = req.params
-    const { publication, ...data } = req.body
+    const { post, ...data } = req.body
     try {
         //Verificar si la publicación existe
-        const publicationId = await Publication.findById(publication)
-        if(!publicationId){
+        const postId = await Post.findById(post)
+        if(!postId){
             return res.status(400).send(
                 {
                     success: false,
@@ -69,7 +69,7 @@ export const updateComment = async(req, res)=>{
         }
         const updateCom = await Comment.findByIdAndUpdate(
             id,
-            { ...data, publication: publication },
+            { ...data, post: post },
             { new: true }
         )
         return res.send(
@@ -135,7 +135,7 @@ export const getAllComments = async(req, res) => {
             .limit(limit)
             .populate(
                 {
-                    path: 'publication',
+                    path: 'post',
                     select: 'title description -_id'
                 }
             )
