@@ -13,9 +13,9 @@ const commentSchema = Schema(
             maxLength: [200, `Can´t be overcome 200 characters`],
             required: [true, 'Content is required']
         },
-        publication: {
+        post: {
             type: Schema.Types.ObjectId,
-            ref: 'Publication',
+            ref: 'Post',
             required: [true, 'Publication is required']
         },
         date: { 
