@@ -121,7 +121,7 @@ export const deletePost = async(req, res)=>{
 export const getAllPost = async(req, res)=>{
     try{
         const posts = await Post.find()
-            .populate('author category', 'username name')
+            //.populate('author category', 'username name')
         if(posts.length == 0){
             return res.status(404).send(
                 { 
