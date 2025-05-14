@@ -9,12 +9,20 @@ export const validSavePost = [
         .withMessage('Can´t be overcome 50 characters'),
     body('description', 'Content cannot be empty')
         .notEmpty()
-        .isLength({ max: 100 })
-        .withMessage('Can´t be overcome 50 characters'), 
+        .isLength({ max: 400 })
+        .withMessage('Can´t be overcome 400 characters'), 
     body('course', 'Course cannot be empty')
         .notEmpty()
         .isLength({ max: 15 })
-        .withMessage('Can´t be overcome 15 characters'),      
+        .withMessage('Can´t be overcome 15 characters'), 
+    body('grade', 'Grade cannot be empty')
+        .notEmpty()
+        .isLength({ max: 15 })
+        .withMessage('Can´t be overcome 15 characters'), 
+    body('repository', 'Repository cannot be empty')
+        .notEmpty()
+        .isLength({ max: 80 })
+        .withMessage('Can´t be overcome 80 characters'),      
         validateErrorWithoutImg
 ]
 
@@ -23,14 +31,22 @@ export const validUpdatePost = [
         .optional() 
         .isLength({ max: 50 })
         .withMessage('Can´t be overcome 50 characters'),
-    body('content', 'Content is optional')
+    body('description', 'Content is optional')
         .optional()
-        .isLength({ max: 100 })
-        .withMessage('Can´t be overcome 50 characters'), 
-    body('course', 'Course cannot be empty')
+        .isLength({ max: 400 })
+        .withMessage('Can´t be overcome 400 characters'), 
+    body('course', 'Course is optional')
         .optional()
         .isLength({ max: 15 })
-        .withMessage('Can´t be overcome 15 characters'),       
+        .withMessage('Can´t be overcome 15 characters'), 
+    body('grade', 'Grade is optional')
+        .optional()
+        .isLength({ max: 15 })
+        .withMessage('Can´t be overcome 15 characters'), 
+    body('repository', 'Repository is optional')
+        .optional()
+        .isLength({ max: 80 })
+        .withMessage('Can´t be overcome 80 characters'),       
         validateErrorWithoutImg
 ]
 
