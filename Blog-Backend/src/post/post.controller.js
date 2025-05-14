@@ -148,3 +148,37 @@ export const getAllPost = async(req, res)=>{
         )
     }
 }
+
+// Obtener un post por ID
+export const getPostById = async(req, res) => {
+    const { id } = req.params
+    try {
+        const post = await Post.findById(id)
+
+        if (!post) {
+            return res.status(404).send(
+                {
+                    success: false,
+                    message: 'Post not found'
+                }
+            )
+        }
+
+        return res.send(
+            {
+                success: true,
+                message: 'Post found',
+                post
+            }
+        )
+    } catch (err) {
+        console.error(err);
+        return res.status(500).send(
+            {
+                success: false,
+                message: 'Error getting post by ID',
+                err
+            }
+        )
+    }
+}
