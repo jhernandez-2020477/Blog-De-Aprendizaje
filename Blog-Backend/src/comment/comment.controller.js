@@ -176,3 +176,37 @@ export const getAllComments = async(req, res) => {
         )
     }
 }
+
+//Obtener comentarios por post
+export const getCommentsByPostId = async (req, res) => {
+    try {
+        const postId = req.params.id
+        const comments = await Comment.find({ post: postId }).sort({ createdAt: -1 })
+        if (comments.length === 0) {
+            return res.status(404).send(
+                {
+                    success: false,
+                    message: 'No comments found for this post'
+                }
+            )
+        }
+
+        return res.send(
+            {
+                success: true,
+                message: 'Comments retrieved successfully',
+                total: comments.length,
+                comments
+            }
+        )
+    } catch (err) {
+        console.error(err);
+        return res.status(500).send(
+            {
+                success: false,
+                message: 'Error retrieving comments by post ID',
+                err
+            }
+        )
+    }
+}
