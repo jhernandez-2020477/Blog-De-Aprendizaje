@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const CardPost = ({ _id, title, description, course, date }) => {
+export const CardPost = ({ _id, title, description, course, date, repository }) => {
   return (
     <div className="card m-2 p-3 shadow w-100">
       <h5>{title}</h5>

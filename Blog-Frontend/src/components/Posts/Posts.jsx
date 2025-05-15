@@ -63,7 +63,6 @@ export const Posts = () => {
             key={post._id}
             _id={post._id}
             title={post.title}
-            description={post.description}
             course={post.course}
             date={post.date}
           />

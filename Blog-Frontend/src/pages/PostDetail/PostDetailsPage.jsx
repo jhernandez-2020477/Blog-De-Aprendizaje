@@ -20,7 +20,7 @@ export const PostDetailsPage = () => {
       const resPost = await getPostById(id)
       const resComments = await getCommentsByPostId(id)
 
-      if (!resPost.error) setPost(resPost.data)
+      if (!resPost.error) setPost(resPost.data.post)
       if (!resComments.error && Array.isArray(resComments.data.comments)) {
         const sorted = resComments.data.comments.sort(
           (a, b) => new Date(b.date) - new Date(a.date)
@@ -65,13 +65,15 @@ export const PostDetailsPage = () => {
       <button className="btn btn-secondary mb-3" onClick={() => navigate(-1)}>
         ← Volver
       </button>
-
-      <div className="post-content">
+      <div className="post-summary mb-4 p-3 border rounded bg-light">
         <h2>{post.title}</h2>
         <p className="text-muted mb-1">
           {new Date(post.date).toLocaleDateString("es-ES")}
         </p>
-        <p>{post.description}</p>
+        <p><strong>Curso:</strong> {post.course}</p>
+        <p><strong>Grado:</strong> {post.grade}</p>
+        <p><strong>Descripción:</strong> {post.description}</p>
+        <p><strong>GitHub:</strong> {post.repository}</p>
       </div>
 
       <form onSubmit={handleSubmit} className="comment-form">
