@@ -40,7 +40,6 @@ export const PostDetailsPage = () => {
 
     const newComment = {
       ...formData,
-      date: new Date().toLocaleString("es-ES"),
       post: id
     }
 
