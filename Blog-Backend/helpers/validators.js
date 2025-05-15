@@ -13,8 +13,8 @@ export const validSavePost = [
         .withMessage('Can´t be overcome 400 characters'), 
     body('course', 'Course cannot be empty')
         .notEmpty()
-        .isLength({ max: 15 })
-        .withMessage('Can´t be overcome 15 characters'), 
+        .isLength({ max: 30 })
+        .withMessage('Can´t be overcome 30 characters'), 
     body('grade', 'Grade cannot be empty')
         .notEmpty()
         .isLength({ max: 15 })
@@ -37,8 +37,8 @@ export const validUpdatePost = [
         .withMessage('Can´t be overcome 400 characters'), 
     body('course', 'Course is optional')
         .optional()
-        .isLength({ max: 15 })
-        .withMessage('Can´t be overcome 15 characters'), 
+        .isLength({ max: 30 })
+        .withMessage('Can´t be overcome 30 characters'), 
     body('grade', 'Grade is optional')
         .optional()
         .isLength({ max: 15 })

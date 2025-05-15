@@ -16,7 +16,7 @@ const postSchema = Schema(
         },
         course: {
             type: String,
-            maxLength: [15, `Can´t be overcome 15 characters`],
+            maxLength: [30, `Can´t be overcome 30 characters`],
             required: [true, 'Course is required']
         },
         grade: {
