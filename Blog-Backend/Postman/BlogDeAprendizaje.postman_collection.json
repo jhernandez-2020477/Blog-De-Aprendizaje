@@ -1,0 +1,3790 @@
+{
+	"info": {
+		"_postman_id": "9c63e866-cda6-49aa-aeb6-1c455170955b",
+		"name": "BlogDeAprendizaje",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37951911"
+	},
+	"item": [
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Configuración de Switchers",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza la configuración de Switchers desde Cisco Packet Tracer",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller ",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Switchers.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Configuración de Contraseñas",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza la configuración de Switchers y sus contraseñas desde Cisco Packet Tracer",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller ",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Contrase-asYPss.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Construcción de Red",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza la configuración para crear una red pequeña de empresa con la ayuda de Cisco Packet Tracer.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller ",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/RedDeEmpresa.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Algoritmos en PSeInt",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Desarrollé y resolví diversos ejercicios utilizando PSeInt, enfocándome en la aplicación de estructuras básicas de programación como condicionales, ciclos y manejo de variables. Esta práctica me ayudó a mejorar la lógica algorítmica.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller ",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Algoritmos-en-PSeInt.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Problemas con Java",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realizaron diferentes ejercicios prácticos utilizando el lenguaje de programación Java, aplicando conceptos como estructuras de control, manejo de variables, ciclos y funciones para reforzar la lógica de programación.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller ",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ProblemasJava.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Java",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realizan los primeros ejercicios utilizando Java, enfocándose en conceptos básicos como variables, tipos de datos, operadores, estructuras condicionales y ciclos. Estos ejercicios sirvieron como introducción al lenguaje y a la lógica de programación.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller ",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Java.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Proyecto Cuarto Bim 2",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolló el proyecto final del segundo bimestre de cuarto año: una calculadora básica hecha en Java. Este trabajo integró conocimientos sobre estructuras condicionales, ciclos, funciones y manejo de interfaces simples.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ProyectoFinalCuartoBim2.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Principios CRUD",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se incorporan los principios básicos de CRUD (Crear, Leer, Actualizar, Eliminar) en Java, aplicando estos conceptos en ejercicios prácticos para entender cómo gestionar datos de forma estructurada.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/PrincipiosCRUD.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Proyecto Final Bim 3 Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se llevó a cabo el proyecto final del tercer bimestre, desarrollando un sistema CRUD completo en Java. El proyecto incluyó la implementación funcional del programa y la elaboración de diagramas (como de clases o flujo) para representar su estructura y lógica.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ProyectoFinalCuartoBim3.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Juego Ahorado",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Para el proyecto final se desarrolló el juego del ahorcado utilizando Java. Este proyecto permitió aplicar lógica condicional, manejo de cadenas, ciclos y estructuras de control, reforzando habilidades en programación funcional.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/JuegoAhorcado.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Proyecto Cuarto Bim 4",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Como parte del proyecto en cuarto año, se diseñó un modelo de base de datos utilizando MySQL. El trabajo incluyó la creación de tablas, relaciones entre entidades y el uso de claves primarias y foráneas.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ProyectoCuartoBim4.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Base de Datos ",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realizaron ejercicios prácticos con bases de datos, trabajando con MySQL para crear, consultar, actualizar y eliminar información mediante sentencias SQL.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/BaseDeDatos.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Proyecto Bim 5 Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se entregó el proyecto final del año, el cual consistió en el desarrollo de un sistema CRUD completo con conexión a una base de datos en MySQL. Se aplicaron conceptos clave de programación y modelado de datos.\n\n",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Bim5Cuarto.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Examenes CCNA",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realizan las capturas de los examnes de CCNA en Cisco.\n",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/CCNA.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Diagramas de Flujo",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza presentación con los elementos de los diagramas de flujo.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/DiagramasDeFlujo.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Conceptos de Programación",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza un glosario con los conceptos básicos de Programación.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Programaci-n.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Examenes ITEssentials",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realizaon examens en la plataforma de Cisco con el curso de ITEssentials.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tics",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ITEssentials.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Examenes ITEssentials 2",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realizaon examens en la plataforma de Cisco con el curso de ITEssentials.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tics",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ITEssentials2.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Boxing, Unboxing, Autoboxing, Parsing",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Boxing, Unboxing, Autoboxing, Parsing y Casting en java",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Cuarto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/BoxingUnboxing-.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPostQuinto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Ejercicios con Caracteres Java SE",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Ejercicios para practicar el manejo de caracteres en Java SE, usando operaciones como recorrer cadenas, modificar letras, buscar y reemplazar caracteres, y otras funciones básicas que ayudan a entender mejor cómo trabajar con textos en el lenguaje.\n",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/EjercicioConCaracteres.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Primer Proyecto JavaSE",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla el primer proyecto pequeño utilizando Java SE, aplicando conceptos básicos del lenguaje como variables, condicionales, ciclos y funciones. Sirve para poner en práctica lo aprendido y empezar a estructurar programas simples por cuenta propia.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/PrimerProyectoJavaSE.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Programa de Peso",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se crea un programa en Java SE para calcular el peso ideal o convertir unidades relacionadas con el peso. Se aplican conceptos básicos como entradas por teclado, operaciones matemáticas y salida de datos, reforzando el uso práctico del lenguaje en problemas reales.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ProyectoDePeso.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Clases en Java SE",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se elabora un ejemplo práctico para entender cómo se usan las clases en Java SE. Se aprende a crear estructuras con atributos y métodos, instanciar objetos y aplicar principios básicos de la programación orientada a objetos, como la organización y reutilización del código.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ClasesJavaSE.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Ejercicios con Java SE",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realizan ejercicios de repaso para reforzar los conocimientos adquiridos en Java SE. Se practican temas como variables, estructuras de control, arreglos, funciones y clases, con el objetivo de afianzar la lógica de programación y la comprensión del lenguaje.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/EjerciciosJavaSE.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Proyecto Bim 1 Quinto",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se incorpora proyecto de base de datos, con triggers, funciones, consultas y sus relaciones.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ProyectoFinalBim1Quinto.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Singleton",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realizó un ejemplo práctico del patrón de diseño Singleton en Java SE. Este patrón asegura que una clase tenga una única instancia y proporciona un punto de acceso global a ella. Sirve para entender cómo controlar la creación de objetos y mejorar la organización del código.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Singleton.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Singleton Gráfico",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla un ejemplo de Singleton con una interfaz gráfica en Java SE. Se implementa el patrón Singleton para garantizar que solo exista una instancia de la ventana o componente gráfico, gestionando el acceso y controlando su creación a través de la interfaz visual de la aplicación.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/SingletonGrafico.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Kinal Store",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla un proyecto de supermercado llamado KinalStore utilizando Java SE. El sistema permite gestionar productos, inventarios, ventas y clientes. Se implementan funcionalidades como agregar productos, realizar compras y calcular totales, aplicando conceptos de programación orientada a objetos, manejo de datos y lógica de negocio.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/KinalStore.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Disney",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se elabora página web utilizando HTML 5 y CSS, con el tema de Disney.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tics",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Disney.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Maven",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza un ejemplo práctico utilizando Maven en un proyecto con Java EE. Se aprende a configurar el archivo pom.xml, gestionar dependencias y estructurar el proyecto de forma ordenada. Esto permite automatizar el proceso de construcción y facilitar el manejo de bibliotecas en aplicaciones empresariales.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Maven.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Ventas Java EE",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla un proyecto de sistema de ventas utilizando Java EE. El proyecto incluye la gestión de productos, clientes y transacciones, aplicando tecnologías como servlets, JSP y conexión a base de datos. Sirve para poner en práctica el desarrollo de aplicaciones web con enfoque empresarial.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/VenentasJavaEE.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Página de Hobbies",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se elabora página web utilizando HTML 5 y CSS, con el tema de Hobbies.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tics",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Hobbies.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "NovaTec",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se lleva a cabo un proyecto grupal de una tienda de tecnología llamado NovTec utilizando Java EE. El sistema permite gestionar productos, usuarios, ventas y reportes. Se aplican tecnologías como servlets, JSP y base de datos, fomentando el trabajo en equipo y el desarrollo de aplicaciones web dinámicas.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/sgomez-2020088/NovaTec.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Restaurant Kinal",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla un proyecto de tienda de deportes utilizando Spring Boot. El sistema permite gestionar menús, pedidos, mesas y usuarios. Se aplican conceptos como controladores REST, servicios, entidades y conexión a base de datos, facilitando el desarrollo de una aplicación web moderna y estructurada.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/RestaurantKinal.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Sport Kinal",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla un proyecto de tienda de deportes utilizando Spring Boot. Se aplican conceptos como controladores REST, servicios, entidades y conexión a base de datos, facilitando el desarrollo de una aplicación web moderna y estructurada.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/SportKinal.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Tabla de Multiplicar",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla proyecto de tablas de multiplicar con HTML 5 y CSS",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tics",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/TablasDeMultiplicar.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Prácticas de Exel",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se elabaron prácticas de exel junto con Office 365",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tics",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/TicsBim2.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Prácticas de Exel Bim 3",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se elabaron prácticas de exel junto con Office 365",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tics",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/TicsBim3.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Costo de Proyecto",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se elabora un costo de proyecto del bimestre 3 de quinto.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tics",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/TicsCostos.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Video JPA",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza video explicando que es la JPA y donde se utiliza.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/JPA.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Spring Boot CRUD",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza video explicando como se hace un CRUD con Spring Boot",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/SpringBootCRUD.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Metodología SCRUM",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza video explicando como se trabaja la metodología SCRUM.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tics",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/SCRUM.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Estrategias Spring Boot",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza video explicando las estrategias de Spring Boot",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/EstrategiasEnSpring.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Mapa metal de Spring Boot",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza un mapa mental con lo que es Spring Boot",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Quinto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/MapaMentalSpring.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost Sexto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Página Kinal",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se crea una página web institucional de Kinal utilizando HTML5 y CSS. El proyecto incluye el diseño de secciones como inicio, nosotros y contacto, aplicando estructuras semánticas, estilos visuales y principios básicos de diseño web responsivo.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/PaginaKinal.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Agenda Virtual",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla una agenda virtual utilizando HTML5, CSS y JavaScript. El proyecto permite agregar, editar y eliminar eventos o tareas. Se implementa una interfaz interactiva y dinámica, aplicando lógica con JavaScript y estilos visuales para mejorar la experiencia del usuario.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Práctica Supervisada",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/AgendaVirtual.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Adoptation System",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla un sistema de adopción utilizando Node.js. El proyecto permite gestionar usuarios, mascotas disponibles y solicitudes de adopción. Se aplican conceptos como rutas, manejo de datos con JSON o base de datos, y creación de un servidor, enfocándose en el desarrollo backend con JavaScript.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/SistemaDeAdopcion.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Academic Manager",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla un sistema de control de empresas utilizando Node.js. El proyecto permite administrar información de empresas, empleados y operaciones internas. Se implementan rutas, controladores y conexión a base de datos, aplicando fundamentos del desarrollo backend para gestionar datos de forma eficiente.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Práctica Supervisada",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ControlDeEmpresas.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Tienda Online",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se realiza proyecto final de bimestre 1 de Sexto, api realizada con NodeJS",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/FinalProject.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Gestor de Opiniones",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Se desarrolla un gestor de opciones utilizando Express y Node.js. El sistema permite crear, modificar y eliminar diferentes opciones o configuraciones. Se aplican rutas, controladores y manejo de peticiones HTTP, fortaleciendo el uso de Express en la construcción de aplicaciones web del lado del servidor.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Práctica Supervisada",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/OpinionManager.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "HTML, CSS y Preprocesadores",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Actividad # 1 - Infografía HTML, CSS, PreProcesadores",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/OpinionManager.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Mapa conceptual JavaScript",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Actividad # 2 Mapa conceptual, JavaScript, Ajax, \npatrones de diseño.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/MapaConceptualJavaScript.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Mapa mental: conceptos web",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Actividad # 3 Mapa mental: conceptos web.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ConceptosBasicos.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Infografía beneficios React",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Actividad # 4 - Infografía beneficios React",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "ttps://github.com/jhernandez-2020477/React.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Propuesta de proyecto",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Actividad # 5 - Propuesta de proyecto",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/PropuestaDeProyecto.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Investigación APIs",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Actividad # 6 - Investigación APIs",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnología",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Apis.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Ejercicios JavaScript React",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Laboratorio # 4 - Ejercicios de JavaScript",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/dreyes-2022433/Ejercicios.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Avance Proyecto Bimestral II",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Avance Proyecto Bimestral II, sistema de gestión hotelera con React.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/dreyes-2022433/Gestion-Hotelera.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Exposición grupal # 1",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Framework para desarrollo de aplicaciones híbridas.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Práctica Supervisada",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/Flutter.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Coperex",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Sistema de gestion de empresas con NodeJS, Express.",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/jhernandez-2020477/ProjectCoperex.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Almacenadora",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Laboratorio # 4 - Almacenadora",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Práctica Supervisada",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/dreyes-2022433/Almacenadora.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addPost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Almacenadora",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Laboratorio # 4 - Almacenadora",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Práctica Supervisada",
+									"type": "text"
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text"
+								},
+								{
+									"key": "repository",
+									"value": "https://github.com/dreyes-2022433/Almacenadora.git",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updatePost",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Laboratorio #3",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Práctica con NodeJS ",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "grade",
+									"value": "Sexto",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "respository",
+									"value": "https://github.com/jhernandez-2020477/Blog-De-Aprendizaje.git",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/post/68228c6939be2345a1bad3c1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								"68228c6939be2345a1bad3c1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deletePost",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3626/post/68228c6939be2345a1bad3c1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								"68228c6939be2345a1bad3c1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllPost",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3626/post/getAllPosts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								"getAllPosts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getPostById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3626/post/68228ba639be2345a1bad3bb",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"post",
+								"68228ba639be2345a1bad3bb"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "saveComment",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "EliasHG 2",
+									"type": "text"
+								},
+								{
+									"key": "content",
+									"value": "Buen trabajo! Proyecto muy bueno",
+									"type": "text"
+								},
+								{
+									"key": "post",
+									"value": "682422e355fccd40307462f32",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/comment/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"comment",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateComment",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "content",
+									"value": "Buen trabajo! Proyecto muy bueno. Sigue asi!",
+									"type": "text"
+								},
+								{
+									"key": "post",
+									"value": "68228ba639be2345a1bad3bb",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3626/comment/68228efd88d26a5db9cc5ab1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"comment",
+								"68228efd88d26a5db9cc5ab1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteComment",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3626/comment/6822902d1069a4df48e79f98",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"comment",
+								"6822902d1069a4df48e79f98"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllComments",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3626/comment/getAll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"comment",
+								"getAll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllCommentsByPost",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3626/comment/getCommentsByPost/682422e355fccd40307462f2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3626",
+							"path": [
+								"comment",
+								"getCommentsByPost",
+								"682422e355fccd40307462f2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
