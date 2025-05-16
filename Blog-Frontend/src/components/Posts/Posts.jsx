@@ -27,20 +27,22 @@ export const Posts = () => {
     : filteredPosts
 
   return (
-    <div className='d-flex flex-column align-items-center justify-content-center w-95 m-5'>
+    <div className='body d-flex flex-column align-items-center justify-content-center w-95 m-5'>
       <div className="header mb-4">
-        <h2>Mis publicaciones</h2>
-
-        <button
-          className="btn btn-secondary mt-3"
-          onClick={() => navigate('/feed')}
-        >
-          ← Volver al inicio
-        </button>
+        <div className="d-flex align-items-center justify-content-between">
+          <button
+            className="btn-volver"
+            onClick={() => navigate('/feed')}
+          >
+            ← Volver al inicio
+          </button>
+          <h2 className="flex-grow-1 text-center m-0">Mis Publicaciones</h2>
+          <div style={{ width: '160px' }}></div> {/* Espaciador simétrico */}
+        </div>
 
         <select
-          className="form-select mt-3"
-          style={{ maxWidth: "300px", margin: "0 auto" }}
+          className="form-select mt-3 mx-auto"
+          style={{ maxWidth: "300px" }}
           onChange={(e) => setFilter(e.target.value)}
         >
           <option value="all">Todas</option>
